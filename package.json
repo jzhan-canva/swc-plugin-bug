@@ -1,0 +1,17 @@
+{
+  "name": "swc_plugin_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "swc ./input.js -o output.js --config-file .plugin.swcrc",
+    "buildWihoutPlugin": "swc ./input.js -o output.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@swc/cli": "^0.5.2",
+    "@swc/core": "^1.9.3",
+    "@swc/plugin-noop": "^5.0.0"
+  }
+}
